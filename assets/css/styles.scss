@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:700');
-
 .hx-main{
     --headline1: 96px;
     --headline2: 72px;
     --headline3: 64px;
     --headline4: 30px;
     --headline5: 25px;
-
-
     --white: #ffffff;
 
     --max-width: 1180px;
@@ -17,22 +13,22 @@
     max-width: 100%;
 }
 .hx-h1{
-    font-size: var(--headline1);
+    font-size: 96px;
     margin: 0;
 }
 .hx-h2{
-    font-size: var(--headline2);
+    font-size: 72px;
     margin: 0;
 }
 .hx-h2-v2{
     font-size: 68px;
 }
 .hx-h3{
-    font-size: var(--headline3);
+    font-size: 64px;
     margin: 0;
 }
 .hx-h4{
-    font-size: var(--headline4);
+    font-size: 30px;
     margin: 0;
     font-weight: 700;
 }
@@ -45,7 +41,7 @@
     font-style: italic;
 }
 .hx-h5{
-    font-size: var(--headline5);
+    font-size: 25px;
     margin: 0;
     font-weight: 300;
 }
@@ -90,7 +86,7 @@
     padding: 1em;
 }
 .hx-white{
-    color: var(--white);
+    color: #ffffff;
 }
 
 .hx-font-weight-medium{
@@ -126,7 +122,7 @@
     min-height: 80vh;
     width: 100%;
     margin: 0 auto;
-    max-width: var(--max-width);
+    max-width: 1180px;
 }
 @media only screen and (max-width: 992px){
     .hx-content{
@@ -138,7 +134,7 @@
 .hx-content-legal{
     width: 100%;
     margin: 0 auto;
-    max-width: var(--max-width);
+    max-width: 1180px;
 }
 .hx-legal{
     padding: 1em 1em 0em 1em;

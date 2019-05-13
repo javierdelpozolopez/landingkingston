@@ -29,7 +29,7 @@
 }
 
 .hx-h2-v2 {
-  font-size: 60px;
+  font-size: 58px;
 }
 
 .hx-h3 {
@@ -54,6 +54,10 @@
 
 .hx-font-condensed {
   font-family: 'Open Sans condensed', sans-serif;
+}
+
+.hx-font-bold {
+  font-weight: 700;
 }
 
 .hx-h5 {

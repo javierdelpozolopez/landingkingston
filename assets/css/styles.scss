@@ -2,6 +2,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.hx-container{
+    width: 100%;
+    margin: 0 auto;
+    max-height: 820px;
+}
 .hx-main img{
     max-width: 100%;
 }
@@ -9,19 +14,15 @@
     font-size: 96px;
     margin: 0;
 }
-.hx-h2{
-    font-size: 72px;
-    margin: 0;
-}
 .hx-h2-v2{
-    font-size: 68px;
+    font-size: 60px;
 }
 .hx-h3{
     font-size: 64px;
     margin: 0;
 }
 .hx-h4{
-    font-size: 30px;
+    font-size: 26px;
     margin: 0;
     font-weight: 700;
 }
@@ -67,10 +68,22 @@
         padding-right: 14px;
     }
     .hx-h1{
-        --headline1: 5em;
+       font-size:  4em;
     }
     .hx-h2{
-        --headline2: 3em;
+        font-size:  3em;
+    }
+    .hx-h2-v2{
+        font-size: 1.8em;
+    }
+    .hx-h3{
+        font-size: 2.5em;
+    }
+    .hx-h4{
+        font-size: 1.5em;
+    }
+    .hx-h4-main{
+        font-size: 1.6em;
     }
 }
 
@@ -132,7 +145,9 @@
 .hx-legal{
     padding: 1em 1em 0em 1em;
 }
-
+.hx-legal p {
+        font-size: 9px;
+}
 .main__container{
     background-image: url(../img/bg-main.jpg);
     background-size: cover;
@@ -191,7 +206,7 @@
 
 .hx-legal{
     border-top: 1px solid #707070;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 10rem;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -214,6 +229,8 @@
 .padding-v-2{
     padding-top: 4em;
     padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .padding-b-2{
     padding-bottom: 2em;

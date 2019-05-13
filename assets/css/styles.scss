@@ -1,17 +1,21 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .hx-container{
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     max-height: 820px;
     @media only screen and (max-width: 992px){
-        max-height: auto;
+        max-height: 100%;
     }
 }
 .hx-main img{
     max-width: 100%;
+}
+.hx-h1, .hx-h2,.hx-h3,.hx-h4,.hx-h4-main,.hx-h2-v2,.hx-h5{
+    font-family: 'Open Sans', sans-serif;
 }
 .hx-h1{
     font-size: 96px;
@@ -37,6 +41,9 @@
     padding-bottom: .8em;
     font-style: italic;
 }
+.hx-font-condensed{
+    font-family: 'Open Sans condensed', sans-serif;
+}
 .hx-h5{
     font-size: 25px;
     margin: 0;
@@ -44,7 +51,7 @@
 }
 .hx-subtitle2{
     color: #C1C1C1;
-    font-size: 34px;
+    font-size: 26px;
     font-family: 'Open Sans condensed', sans-serif;
     margin: 0;
 }
@@ -53,6 +60,7 @@
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    font-weight: 700;
 
 }
 .hx-over-top{
@@ -71,7 +79,7 @@
         padding-right: 14px;
     }
     .hx-h1{
-       font-size:  4em;
+       font-size:  3.5em;
     }
     .hx-h2{
         font-size:  3em;
@@ -87,6 +95,9 @@
     }
     .hx-h4-main{
         font-size: 1.6em;
+    }
+    .hx-h5{
+        font-size: 1.3em;
     }
 }
 
@@ -177,7 +188,6 @@
 @media only screen and (max-width: 992px){
     .savage__container__footer{
         background-position: left;
-        padding: 1em;
     }
 }
 
@@ -190,6 +200,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
+    padding-bottom: 12px;
 }
 
 .hx-item-head h4{
@@ -222,6 +233,7 @@
     text-align: center;
 }
 .hx-footer img {
+    width: 100%;
     max-width: 260px;
 }
 

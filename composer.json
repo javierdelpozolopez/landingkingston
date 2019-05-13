@@ -1,0 +1,9 @@
+{
+  "name": "javierdelpozolopez/basic-ppertools-theme",
+  "description": "HTML5, SASS, Responsive grid starter theme.",
+  "type": "drupal-theme",
+  "homepage": "http://drupal.org/project/basic",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {}
+}
